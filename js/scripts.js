@@ -7,7 +7,7 @@ $(document).ready(function(){
         var city = $('#city').val();
         var cityString = `${city}`
 
-        var url = `http://api.openweathermap.org/data/2.5/weather?q=${cityString}&appid=${apiKey}&units=imperial`
+        var url = `https://api.openweathermap.org/data/2.5/weather?q=${cityString}&appid=${apiKey}&units=imperial`
 
         $.get(url, function (res) {
             console.log(res)
