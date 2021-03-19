@@ -1,6 +1,5 @@
 $(document).ready(function(){
     var apiKey = '8ab82243dc2b9fe4c8e68d061a14e1c4'
-    // var apiKey = '1a030624be57d904c2ea834c553e9c4c'
 
 
     $('form').submit(function () {
